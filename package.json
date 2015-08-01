@@ -1,0 +1,20 @@
+{
+  "name": "tracking",
+  "version": "1.0.0",
+  "description": "Tracking Users Over Websites",
+  "main": "index.js",
+  "scripts": {
+    "web": "node src/web.js",
+    "test": "echo Error"
+  },
+  "dependencies": {
+    "express": "4.13.2",
+    "body-parser": ">0",
+    "cookie-parser": ">0",
+    "cookie-session": ">0",
+    "redis": ">0.11",
+    "fingerprintjs2":">=0.5.1"
+  },
+  "author": "",
+  "license": "AGPL"
+}
